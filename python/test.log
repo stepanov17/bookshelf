@@ -1,0 +1,605 @@
+initialization...
+done
+
+
+1) get all books
+[
+    {
+        "authors": [
+            {
+                "books": [
+                    {
+                        "id": 500,
+                        "publisher": "просвещение",
+                        "publyear": 2001,
+                        "title": "Сборник задач по физике, 7-9 классы"
+                    },
+                    {
+                        "id": 550,
+                        "publisher": "bhv",
+                        "publyear": 2020,
+                        "title": "Инженерная графика"
+                    }
+                ],
+                "id": 101,
+                "name": "Андрей",
+                "patronymic": "Иванович",
+                "surame": "Петров"
+            },
+            {
+                "books": [
+                    {
+                        "id": 500,
+                        "publisher": "просвещение",
+                        "publyear": 2001,
+                        "title": "Сборник задач по физике, 7-9 классы"
+                    },
+                    {
+                        "id": 510,
+                        "publisher": "просвещение",
+                        "publyear": 2010,
+                        "title": "Сборник задач по физике, 10-11 классы"
+                    }
+                ],
+                "id": 103,
+                "name": "Анна",
+                "patronymic": "Семеновна",
+                "surame": "Петрова"
+            }
+        ],
+        "id": 500,
+        "publisher": "просвещение",
+        "publyear": 2001,
+        "title": "Сборник задач по физике, 7-9 классы"
+    },
+    {
+        "authors": [
+            {
+                "books": [
+                    {
+                        "id": 550,
+                        "publisher": "bhv",
+                        "publyear": 2020,
+                        "title": "Инженерная графика"
+                    },
+                    {
+                        "id": 510,
+                        "publisher": "просвещение",
+                        "publyear": 2010,
+                        "title": "Сборник задач по физике, 10-11 классы"
+                    }
+                ],
+                "id": 102,
+                "name": "Сергей",
+                "patronymic": "Андреевич",
+                "surame": "Петров"
+            },
+            {
+                "books": [
+                    {
+                        "id": 500,
+                        "publisher": "просвещение",
+                        "publyear": 2001,
+                        "title": "Сборник задач по физике, 7-9 классы"
+                    },
+                    {
+                        "id": 510,
+                        "publisher": "просвещение",
+                        "publyear": 2010,
+                        "title": "Сборник задач по физике, 10-11 классы"
+                    }
+                ],
+                "id": 103,
+                "name": "Анна",
+                "patronymic": "Семеновна",
+                "surame": "Петрова"
+            },
+            {
+                "books": [
+                    {
+                        "id": 510,
+                        "publisher": "просвещение",
+                        "publyear": 2010,
+                        "title": "Сборник задач по физике, 10-11 классы"
+                    }
+                ],
+                "id": 300,
+                "name": "Евгений",
+                "patronymic": "Юрьевич",
+                "surame": "Попович"
+            }
+        ],
+        "id": 510,
+        "publisher": "просвещение",
+        "publyear": 2010,
+        "title": "Сборник задач по физике, 10-11 классы"
+    },
+    {
+        "authors": [
+            {
+                "books": [
+                    {
+                        "id": 500,
+                        "publisher": "просвещение",
+                        "publyear": 2001,
+                        "title": "Сборник задач по физике, 7-9 классы"
+                    },
+                    {
+                        "id": 550,
+                        "publisher": "bhv",
+                        "publyear": 2020,
+                        "title": "Инженерная графика"
+                    }
+                ],
+                "id": 101,
+                "name": "Андрей",
+                "patronymic": "Иванович",
+                "surame": "Петров"
+            },
+            {
+                "books": [
+                    {
+                        "id": 550,
+                        "publisher": "bhv",
+                        "publyear": 2020,
+                        "title": "Инженерная графика"
+                    },
+                    {
+                        "id": 510,
+                        "publisher": "просвещение",
+                        "publyear": 2010,
+                        "title": "Сборник задач по физике, 10-11 классы"
+                    }
+                ],
+                "id": 102,
+                "name": "Сергей",
+                "patronymic": "Андреевич",
+                "surame": "Петров"
+            }
+        ],
+        "id": 550,
+        "publisher": "bhv",
+        "publyear": 2020,
+        "title": "Инженерная графика"
+    }
+]
+
+
+2) get all books, filtered by author #300
+[
+    {
+        "authors": [
+            {
+                "books": [
+                    {
+                        "id": 550,
+                        "publisher": "bhv",
+                        "publyear": 2020,
+                        "title": "Инженерная графика"
+                    },
+                    {
+                        "id": 510,
+                        "publisher": "просвещение",
+                        "publyear": 2010,
+                        "title": "Сборник задач по физике, 10-11 классы"
+                    }
+                ],
+                "id": 102,
+                "name": "Сергей",
+                "patronymic": "Андреевич",
+                "surame": "Петров"
+            },
+            {
+                "books": [
+                    {
+                        "id": 500,
+                        "publisher": "просвещение",
+                        "publyear": 2001,
+                        "title": "Сборник задач по физике, 7-9 классы"
+                    },
+                    {
+                        "id": 510,
+                        "publisher": "просвещение",
+                        "publyear": 2010,
+                        "title": "Сборник задач по физике, 10-11 классы"
+                    }
+                ],
+                "id": 103,
+                "name": "Анна",
+                "patronymic": "Семеновна",
+                "surame": "Петрова"
+            },
+            {
+                "books": [
+                    {
+                        "id": 510,
+                        "publisher": "просвещение",
+                        "publyear": 2010,
+                        "title": "Сборник задач по физике, 10-11 классы"
+                    }
+                ],
+                "id": 300,
+                "name": "Евгений",
+                "patronymic": "Юрьевич",
+                "surame": "Попович"
+            }
+        ],
+        "id": 510,
+        "publisher": "просвещение",
+        "publyear": 2010,
+        "title": "Сборник задач по физике, 10-11 классы"
+    }
+]
+
+
+3) get book by id 510
+{
+    "authors": [
+        {
+            "books": [
+                {
+                    "id": 550,
+                    "publisher": "bhv",
+                    "publyear": 2020,
+                    "title": "Инженерная графика"
+                },
+                {
+                    "id": 510,
+                    "publisher": "просвещение",
+                    "publyear": 2010,
+                    "title": "Сборник задач по физике, 10-11 классы"
+                }
+            ],
+            "id": 102,
+            "name": "Сергей",
+            "patronymic": "Андреевич",
+            "surame": "Петров"
+        },
+        {
+            "books": [
+                {
+                    "id": 500,
+                    "publisher": "просвещение",
+                    "publyear": 2001,
+                    "title": "Сборник задач по физике, 7-9 классы"
+                },
+                {
+                    "id": 510,
+                    "publisher": "просвещение",
+                    "publyear": 2010,
+                    "title": "Сборник задач по физике, 10-11 классы"
+                }
+            ],
+            "id": 103,
+            "name": "Анна",
+            "patronymic": "Семеновна",
+            "surame": "Петрова"
+        },
+        {
+            "books": [
+                {
+                    "id": 510,
+                    "publisher": "просвещение",
+                    "publyear": 2010,
+                    "title": "Сборник задач по физике, 10-11 классы"
+                }
+            ],
+            "id": 300,
+            "name": "Евгений",
+            "patronymic": "Юрьевич",
+            "surame": "Попович"
+        }
+    ],
+    "id": 510,
+    "publisher": "просвещение",
+    "publyear": 2010,
+    "title": "Сборник задач по физике, 10-11 классы"
+}
+
+
+4) get all authors
+[
+    {
+        "books": [
+            {
+                "id": 500,
+                "publisher": "просвещение",
+                "publyear": 2001,
+                "title": "Сборник задач по физике, 7-9 классы"
+            },
+            {
+                "id": 550,
+                "publisher": "bhv",
+                "publyear": 2020,
+                "title": "Инженерная графика"
+            }
+        ],
+        "id": 101,
+        "name": "Андрей",
+        "patronymic": "Иванович",
+        "surame": "Петров"
+    },
+    {
+        "books": [
+            {
+                "id": 550,
+                "publisher": "bhv",
+                "publyear": 2020,
+                "title": "Инженерная графика"
+            },
+            {
+                "id": 510,
+                "publisher": "просвещение",
+                "publyear": 2010,
+                "title": "Сборник задач по физике, 10-11 классы"
+            }
+        ],
+        "id": 102,
+        "name": "Сергей",
+        "patronymic": "Андреевич",
+        "surame": "Петров"
+    },
+    {
+        "books": [
+            {
+                "id": 500,
+                "publisher": "просвещение",
+                "publyear": 2001,
+                "title": "Сборник задач по физике, 7-9 классы"
+            },
+            {
+                "id": 510,
+                "publisher": "просвещение",
+                "publyear": 2010,
+                "title": "Сборник задач по физике, 10-11 классы"
+            }
+        ],
+        "id": 103,
+        "name": "Анна",
+        "patronymic": "Семеновна",
+        "surame": "Петрова"
+    },
+    {
+        "books": [
+            {
+                "id": 510,
+                "publisher": "просвещение",
+                "publyear": 2010,
+                "title": "Сборник задач по физике, 10-11 классы"
+            }
+        ],
+        "id": 300,
+        "name": "Евгений",
+        "patronymic": "Юрьевич",
+        "surame": "Попович"
+    }
+]
+
+
+5) get all authors, filtered by surname 'Петров'
+[
+    {
+        "books": [
+            {
+                "id": 500,
+                "publisher": "просвещение",
+                "publyear": 2001,
+                "title": "Сборник задач по физике, 7-9 классы"
+            },
+            {
+                "id": 550,
+                "publisher": "bhv",
+                "publyear": 2020,
+                "title": "Инженерная графика"
+            }
+        ],
+        "id": 101,
+        "name": "Андрей",
+        "patronymic": "Иванович",
+        "surame": "Петров"
+    },
+    {
+        "books": [
+            {
+                "id": 550,
+                "publisher": "bhv",
+                "publyear": 2020,
+                "title": "Инженерная графика"
+            },
+            {
+                "id": 510,
+                "publisher": "просвещение",
+                "publyear": 2010,
+                "title": "Сборник задач по физике, 10-11 классы"
+            }
+        ],
+        "id": 102,
+        "name": "Сергей",
+        "patronymic": "Андреевич",
+        "surame": "Петров"
+    }
+]
+
+
+6) get author by id 101
+{
+    "books": [
+        {
+            "id": 500,
+            "publisher": "просвещение",
+            "publyear": 2001,
+            "title": "Сборник задач по физике, 7-9 классы"
+        },
+        {
+            "id": 550,
+            "publisher": "bhv",
+            "publyear": 2020,
+            "title": "Инженерная графика"
+        }
+    ],
+    "id": 101,
+    "name": "Андрей",
+    "patronymic": "Иванович",
+    "surame": "Петров"
+}
+
+
+7) update author's info
+{
+    "books": [
+        {
+            "id": 510,
+            "publisher": "просвещение",
+            "publyear": 2010,
+            "title": "Сборник задач по физике, 10-11 классы"
+        }
+    ],
+    "id": 300,
+    "name": "Евгения",
+    "patronymic": "Юрьевна",
+    "surame": "Попович"
+}
+
+
+8) update book's info (remove author, update publ. year)
+{
+    "authors": [
+        {
+            "books": [
+                {
+                    "id": 550,
+                    "publisher": "bhv",
+                    "publyear": 2021,
+                    "title": "Инженерная графика"
+                },
+                {
+                    "id": 510,
+                    "publisher": "просвещение",
+                    "publyear": 2010,
+                    "title": "Сборник задач по физике, 10-11 классы"
+                }
+            ],
+            "id": 102,
+            "name": "Сергей",
+            "patronymic": "Андреевич",
+            "surame": "Петров"
+        }
+    ],
+    "id": 550,
+    "publisher": "bhv",
+    "publyear": 2021,
+    "title": "Инженерная графика"
+}
+
+
+9) custom update of book's info (add author)
+{
+    "authors": [
+        {
+            "books": [
+                {
+                    "id": 550,
+                    "publisher": "bhv",
+                    "publyear": 2021,
+                    "title": "Инженерная графика"
+                },
+                {
+                    "id": 510,
+                    "publisher": "просвещение",
+                    "publyear": 2010,
+                    "title": "Сборник задач по физике, 10-11 классы"
+                }
+            ],
+            "id": 102,
+            "name": "Сергей",
+            "patronymic": "Андреевич",
+            "surame": "Петров"
+        },
+        {
+            "books": [
+                {
+                    "id": 550,
+                    "publisher": "bhv",
+                    "publyear": 2021,
+                    "title": "Инженерная графика"
+                },
+                {
+                    "id": 510,
+                    "publisher": "просвещение",
+                    "publyear": 2010,
+                    "title": "Сборник задач по физике, 10-11 классы"
+                }
+            ],
+            "id": 300,
+            "name": "Евгения",
+            "patronymic": "Юрьевна",
+            "surame": "Попович"
+        }
+    ],
+    "id": 550,
+    "publisher": "bhv",
+    "publyear": 2021,
+    "title": "Инженерная графика"
+}
+
+
+10) custom update of book's info (remove author)
+{
+    "authors": [
+        {
+            "books": [
+                {
+                    "id": 500,
+                    "publisher": "просвещение",
+                    "publyear": 2001,
+                    "title": "Сборник задач по физике, 7-9 классы"
+                }
+            ],
+            "id": 101,
+            "name": "Андрей",
+            "patronymic": "Иванович",
+            "surame": "Петров"
+        }
+    ],
+    "id": 500,
+    "publisher": "просвещение",
+    "publyear": 2001,
+    "title": "Сборник задач по физике, 7-9 классы"
+}
+
+
+11) custom update of book's info (title, publisher and publication year)
+{
+    "authors": [
+        {
+            "books": [
+                {
+                    "id": 500,
+                    "publisher": "Наука",
+                    "publyear": 1999,
+                    "title": "Python для чайников"
+                }
+            ],
+            "id": 101,
+            "name": "Андрей",
+            "patronymic": "Иванович",
+            "surame": "Петров"
+        }
+    ],
+    "id": 500,
+    "publisher": "Наука",
+    "publyear": 1999,
+    "title": "Python для чайников"
+}
+
+
+12) check unauthorized status
+status code = 401
+
+
+13) use invalid credentials
+status code = 401
+
+
+14) try to put as user, 'Forbidden' status expected
+status code = 403
