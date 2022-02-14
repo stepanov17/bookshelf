@@ -1,6 +1,9 @@
 package com.example.bookshelf.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
+
 
 import javax.persistence.Entity;
 import javax.persistence.Column;
@@ -30,6 +33,7 @@ public class Author {
     @Column(name = "patronymic")
     private String patronymic;
 
+    //@JsonProperty(access = Access.WRITE_ONLY) // avoid nested author -> books info in json
     @JsonIgnoreProperties("authors") // to avoid recursion in json (or @JsonBackReference)
     @ManyToMany(mappedBy = "authors")
     private Set<Book> books = new HashSet<>();
